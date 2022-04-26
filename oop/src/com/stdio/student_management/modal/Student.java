@@ -13,6 +13,11 @@ public class Student {
     public Student() {
     }
 
+    public Student(String name, String gender) {
+        this.name = name;
+        this.gender = gender;
+    }
+
     public Student(int id, String name, String gender, double firstScoreX1, double secondScoreX1, double scoreX2, double scoreX3, double gpa) {
         this.id = id;
         this.name = name;
