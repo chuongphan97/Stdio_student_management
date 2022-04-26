@@ -5,7 +5,7 @@ import com.stdio.student_management.modal.Student;
 import java.util.ArrayList;
 import java.util.List;
 
-public class StudentDB implements IStudentDB{
+public class studentDBImpl implements IStudentDB{
     private final static List<Student> students;
     private final static int count;
     private static final String PATH = "students.csv";

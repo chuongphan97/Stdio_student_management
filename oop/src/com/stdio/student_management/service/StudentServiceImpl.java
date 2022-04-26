@@ -1,11 +1,11 @@
 package com.stdio.student_management.service;
 
 import com.stdio.student_management.dao.IStudentDB;
-import com.stdio.student_management.dao.StudentDB;
+import com.stdio.student_management.dao.studentDBImpl;
 import com.stdio.student_management.modal.Student;
 
-public class StudentService implements IStudentService {
-    private final IStudentDB studentDB = new StudentDB();
+public class StudentServiceImpl implements IStudentService {
+    private final IStudentDB studentDB = new studentDBImpl();
 
     @Override
     public void add(String name, String gender) {
