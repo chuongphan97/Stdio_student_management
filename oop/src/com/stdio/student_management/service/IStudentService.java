@@ -7,6 +7,6 @@ public interface IStudentService {
     public boolean deleteById(int id);
     public void putScore(int id, double newFirstScoreX1, double newSecondScoreX1, double newScoreX2, double newScoreX3);
     public void editStudent(int id, String newName, String newGender);
-    public void printListSortedByGpa();
+    public void printList();
     public void loadFromDB();
 }

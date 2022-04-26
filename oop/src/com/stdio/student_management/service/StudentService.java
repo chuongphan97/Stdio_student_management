@@ -28,7 +28,7 @@ public class StudentService implements IStudentService {
     }
 
     @Override
-    public void printListSortedByGpa() {
+    public void printList() {
 
     }
 

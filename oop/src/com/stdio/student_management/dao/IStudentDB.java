@@ -11,4 +11,6 @@ public interface IStudentDB {
     public boolean deleteById(int id);
     public void printListStudent();
     public void sortByGPA();
+    public void sortByName();
+    public void sortById();
 }

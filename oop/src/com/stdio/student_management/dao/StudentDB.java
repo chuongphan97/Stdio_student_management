@@ -54,4 +54,15 @@ public class StudentDB implements IStudentDB{
     public void sortByGPA() {
 
     }
+
+    @Override
+    public void sortByName() {
+    }
+
+    @Override
+    public void sortById() {
+
+    }
+
+
 }
