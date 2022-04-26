@@ -8,7 +8,7 @@ public class StudentService implements IStudentService {
     private final IStudentDB studentDB = new StudentDB();
 
     @Override
-    public void add(Student student) {
+    public void add(String name, String gender) {
 
     }
 
