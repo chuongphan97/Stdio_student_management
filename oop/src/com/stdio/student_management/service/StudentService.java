@@ -13,8 +13,8 @@ public class StudentService implements IStudentService {
     }
 
     @Override
-    public boolean deleteById(int id) {
-        return false;
+    public Student deleteById(int id) {
+        return null;
     }
 
     @Override

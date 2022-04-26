@@ -41,8 +41,8 @@ public class StudentDB implements IStudentDB{
     }
 
     @Override
-    public boolean deleteById(int id) {
-        return false;
+    public Student deleteById(int id) {
+        return null;
     }
 
     @Override

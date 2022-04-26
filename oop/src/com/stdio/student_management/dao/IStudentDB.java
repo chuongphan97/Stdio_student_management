@@ -8,7 +8,7 @@ public interface IStudentDB {
     public Student getById(int id);
     public void add(Student student);
     public void editStudent(int id, Student student);
-    public boolean deleteById(int id);
+    public Student deleteById(int id);
     public void printListStudent();
     public void sortByGPA();
     public void sortByName();
