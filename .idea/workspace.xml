@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df551099-211d-4ea8-b213-1518c346162a" name="Changes" comment="" />
+    <list default="true" id="df551099-211d-4ea8-b213-1518c346162a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/stdio/student_management/dao/StudentDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/stdio/student_management/dao/StudentDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/stdio/student_management/view/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/stdio/student_management/view/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,13 +32,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
   <component name="RunManager" selected="Application.CollectionTest">
     <configuration name="CollectionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CollectionTest" />
@@ -68,6 +75,7 @@
       <workItem from="1649987850681" duration="10135000" />
       <workItem from="1650271832331" duration="9851000" />
       <workItem from="1650765493160" duration="7383000" />
+      <workItem from="1651227316906" duration="308000" />
     </task>
     <servers />
   </component>

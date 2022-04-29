@@ -9,4 +9,5 @@ public interface IStudentService {
     public void editStudent(int id, String newName, String newGender);
     public void printListSortedByGpa();
     public void loadFromDB();
+    public void saveToDB();
 }
