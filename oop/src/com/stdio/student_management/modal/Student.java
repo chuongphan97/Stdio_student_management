@@ -1,6 +1,8 @@
 package com.stdio.student_management.modal;
 
-public class Student {
+import java.io.Serializable;
+
+public class Student implements Serializable {
     int id;
     String name;
     String gender;
@@ -10,7 +12,7 @@ public class Student {
     double scoreX3;
     double gpa;
 
-    public Student() {
+    public Student(){
     }
 
     public Student(String name, String gender) {
@@ -29,6 +31,16 @@ public class Student {
         this.gpa = gpa;
     }
 
+    public Student(double firstScoreX1, double secondScoreX1, double scoreX2, double scoreX3) {
+        this.firstScoreX1 = firstScoreX1;
+        this.secondScoreX1 = secondScoreX1;
+        this.scoreX2 = scoreX2;
+        this.scoreX3 = scoreX3;
+        this.gpa = (firstScoreX1+secondScoreX1+scoreX2*2+scoreX3*3)/7;
+
+
+    }
+
     public int getId() {
         return id;
     }
@@ -37,8 +49,9 @@ public class Student {
         this.id = id;
     }
 
-    public void setGpa(double gpa) {
-        this.gpa = gpa;
+    public void setGpa(double gpa){
+        this.gpa=gpa;
+
     }
 
     public String getName() {

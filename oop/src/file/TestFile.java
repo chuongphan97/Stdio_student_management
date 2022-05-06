@@ -19,24 +19,24 @@ public class TestFile {
             e.printStackTrace();
         }
 
-//        List<Student> students = new ArrayList<>();
-//        students.add(new Student(1, "a", "b", 10));
-//        students.add(new Student(2, "a", "b", 10));
-//        students.add(new Student(3, "a", "b", 10));
-//        students.add(new Student(4, "a", "b", 10));
-//        students.add(new Student(5, "a", "b", 10));
-//        students.add(new Student(6, "a", "b", 10));
-//        students.add(new Student(7, "a", "b", 10));
-//        students.add(new Student(8, "a", "b", 10));
-//        students.add(new Student(9, "a", "b", 10));
-//
-//        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(PATH));
-//
-//        for (Student student : students) {
-//            bufferedWriter.write(student.toStringCSV());
-//        }
-//        System.out.println("Ghi file thành công!");
-//        bufferedWriter.close();
+        List<Student> students = new ArrayList<>();
+        students.add(new Student(1, "a", "b", 10));
+        students.add(new Student(2, "a", "b", 10));
+        students.add(new Student(3, "a", "b", 10));
+        students.add(new Student(4, "a", "b", 10));
+        students.add(new Student(5, "a", "b", 10));
+        students.add(new Student(6, "a", "b", 10));
+        students.add(new Student(7, "a", "b", 10));
+        students.add(new Student(8, "a", "b", 10));
+        students.add(new Student(9, "a", "b", 10));
+
+        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(PATH));
+
+        for (Student student : students) {
+            bufferedWriter.write(student.toStringCSV());
+        }
+        System.out.println("Ghi file thành công!");
+        bufferedWriter.close();
         List<Student> students2 = new ArrayList<>();
         BufferedReader bufferedReader = new BufferedReader(new FileReader(PATH));
         String line;
